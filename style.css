@@ -1,0 +1,17 @@
+* {
+    padding: 10px;
+    margin: 10px;
+}
+body {
+    color: white;
+    background-color: chocolate;
+}
+.container {
+    background-color: black;
+}
+#survey-form {
+    background-color: red;
+}
+.form-survey {
+    background-color: blue;
+}

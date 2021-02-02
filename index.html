@@ -7,6 +7,69 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <h1 id="title">Lorem ipsum dolor sit.</h1>
+            <p id="description">Lorem ipsum dolor sit amet consectetur.</p>
+        </header>
+        <form id="survey-form" action="">
+            <div class="form-survey">
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter your name" id="name" required>
+            </div>
+            <div class="form-survey">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your email" id="email" required>
+            </div>
+            <div class="form-survey">
+                <label for="age">Age</label>
+                <input type="number" placeholder="Age" id="age" required min="10" max="99">
+            </div>
+            <div id="dropdown" class="form-survey">
+                <p>Your current occupation</p>
+                <select name="dropdown" id="drop">
+                    <option value="occupation" disabled selected>Occupation</option>
+                    <option value="student">Student</option>
+                    <option value="full-time-job">Full time job</option>
+                    <option value="part-time-job">Part time job</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>  
+            <div class="form-survey">
+                <p class="title-radio">Lorem ipsum dolor sit amet.</p>
+                <input type="radio" id="red" name="red">
+                <label for="red">Red</label><br>
+                <input type="radio" id="blue" name="blue">
+                <label for="blue">Blue</label><br>
+                <input type="radio" id="green" name="green">
+                <label for="green">Green</label><br>
+            </div>
+            <div class="form-survey">
+                <p>Animal favorito</p>
+                <select name="dropdown" id="drop">
+                    <option value="occupation" disabled selected>Occupation</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-survey">
+                <p>Lorem ipsum dolor sit.</p>
+                <input type="checkbox" id="red" name="red">
+                <label for="red">Red</label><br>
+                <input type="checkbox" id="blue" name="blue">
+                <label for="blue">Blue</label><br>
+                <input type="checkbox" id="green" name="green">
+                <label for="green">Green</label><br>
+            </div>
+            <div class="form-survey">
+                <p>Lorem, ipsum dolor.</p>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write here"></textarea>
+            </div>
+            <div class="form-survey">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
