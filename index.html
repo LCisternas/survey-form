@@ -15,52 +15,46 @@
         <form id="survey-form" action="">
             <div class="form-survey">
                 <label for="name">Name</label>
-                <input type="text" placeholder="Enter your name" id="name" required>
+                <input type="text" placeholder="Enter your name" id="name" required name="name">
             </div>
             <div class="form-survey">
                 <label for="email">Email</label>
-                <input type="email" placeholder="Enter your email" id="email" required>
+                <input type="email" placeholder="Enter your email" id="email" required name="email">
             </div>
             <div class="form-survey">
                 <label for="age">Age</label>
-                <input type="number" placeholder="Age" id="age" required min="10" max="99">
+                <input type="number" placeholder="Age" id="age" required min="10" max="99" name="number">
             </div>
             <div id="dropdown" class="form-survey">
                 <p>Your current occupation</p>
                 <select name="dropdown" id="drop">
-                    <option value="occupation" disabled selected>Occupation</option>
+                    <option value="occupation" disabled selected>Select</option>
                     <option value="student">Student</option>
                     <option value="full-time-job">Full time job</option>
                     <option value="part-time-job">Part time job</option>
                     <option value="other">Other</option>
                 </select>
             </div>  
-            <div class="form-survey">
+            <div class="form-survey-2">
                 <p class="title-radio">Lorem ipsum dolor sit amet.</p>
-                <input type="radio" id="red" name="red">
-                <label for="red">Red</label><br>
-                <input type="radio" id="blue" name="blue">
-                <label for="blue">Blue</label><br>
-                <input type="radio" id="green" name="green">
-                <label for="green">Green</label><br>
+                <label for="red"><input class="input-radio" type="radio" id="red" name="red">Red</label><br>
+                <label for="blue"><input class="input-radio" type="radio" id="blue" name="blue">Blue</label><br>
+                <label for="green"><input class="input-radio" type="radio" id="green" name="green">Green</label><br>
             </div>
             <div class="form-survey">
                 <p>Animal favorito</p>
                 <select name="dropdown" id="drop">
-                    <option value="occupation" disabled selected>Occupation</option>
+                    <option value="occupation" disabled selected>Select</option>
                     <option value="dog">Dog</option>
                     <option value="cat">Cat</option>
                     <option value="other">Other</option>
                 </select>
             </div>
-            <div class="form-survey">
+            <div class="form-survey-2">
                 <p>Lorem ipsum dolor sit.</p>
-                <input type="checkbox" id="red" name="red">
-                <label for="red">Red</label><br>
-                <input type="checkbox" id="blue" name="blue">
-                <label for="blue">Blue</label><br>
-                <input type="checkbox" id="green" name="green">
-                <label for="green">Green</label><br>
+                <label for="red"><input class="input-checkbox" type="checkbox" id="red" name="red">Red</label><br>
+                <label for="blue"><input class="input-checkbox" type="checkbox" id="blue" name="blue">Blue</label><br>
+                <label for="green"><input class="input-checkbox" type="checkbox" id="green" name="green">Green</label><br>
             </div>
             <div class="form-survey">
                 <p>Lorem, ipsum dolor.</p>

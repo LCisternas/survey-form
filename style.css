@@ -4,14 +4,67 @@
 }
 body {
     color: white;
-    background-color: chocolate;
+    background-image: url(/img/pexels-thisisengineering-3913025.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: monospace;
 }
 .container {
     background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 #survey-form {
     background-color: red;
+    width: 640px;
 }
 .form-survey {
     background-color: blue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.form-survey-2 {
+    background-color: gray;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+label {
+    display: flex;
+    align-items: center;
+}
+.form-survey p {
+    align-items: flex-start;
+    margin: 0px;
+    font-size: 18px;
+}
+.form-survey-2 p {
+    margin: 0px;
+    font-size: 18px;
+}
+.form-survey label {
+    align-items: flex-start;
+    margin: 0px;
+    font-size: 18px;
+}
+.form-survey-2 label {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+.form-survey input {
+    border:1px solid #f6f6f6;
+	border-radius:3px;
+}
+.form-survey select {
+    border:1px solid #f6f6f6;
+	border-radius:3px;
+}
+.input-checkbox, .input-radio {
+    min-width: 1.2rem;
+    min-height: 1.2rem;
 }
