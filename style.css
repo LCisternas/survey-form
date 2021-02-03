@@ -3,33 +3,33 @@
     margin: 10px;
 }
 body {
-    color: white;
-    background-image: url(/img/pexels-thisisengineering-3913025.jpg);
+    background-image: url(/img/pexels-neo-2653362.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    color: white;
     font-family: monospace;
 }
 .container {
-    background-color: black;
+    background: transparent;
     display: flex;
     align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
 }
+header {
+    font-size: 1.5em;
+}
 #survey-form {
-    background-color: red;
-    width: 640px;
+    background: transparent;
+    width: 50%
 }
 .form-survey {
-    background-color: blue;
     display: flex;
     flex-direction: column;
     margin-top: 3vh;
     margin-bottom: 3vh;
 }
 .form-survey-2 {
-    background-color: gray;
     margin-top: 3vh;
     margin-bottom: 3vh;
 }
@@ -40,16 +40,16 @@ label {
 .form-survey p {
     align-items: flex-start;
     margin: 0px;
-    font-size: 18px;
+    font-size: 21px;
 }
 .form-survey-2 p {
     margin: 0px;
-    font-size: 18px;
+    font-size: 21px;
 }
 .form-survey label {
     align-items: flex-start;
     margin: 0px;
-    font-size: 18px;
+    font-size: 21px;
 }
 .form-survey-2 label {
     margin: 0px;
@@ -67,4 +67,181 @@ label {
 .input-checkbox, .input-radio {
     min-width: 1.2rem;
     min-height: 1.2rem;
+}
+#btn {
+    background-color: #37af65;
+    border:none;
+    border-radius:3px;
+    color: white;
+    font-size: 16px;
+}
+
+/*MEDIA QUERIES*/
+
+@media all and (max-width: 319px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    html {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container {
+        margin: 0px;
+    }
+    #survey-form {
+        width: 100%;
+        margin: 0px;
+    }
+    .form-survey {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .form-survey label {
+        justify-content: center;
+    }
+    .input-text {
+        text-align: center;
+    }
+    .form-survey p {
+        text-align: center;
+    }
+    .form-survey-2 p {
+        text-align: center;
+    }
+    header {
+        font-size: 1.35em;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    html {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container {
+        margin: 0px;
+    }
+    #survey-form {
+        width: 100%;
+        margin: 0px;
+    }
+    .form-survey {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .form-survey label {
+        justify-content: center;
+    }
+    .input-text {
+        text-align: center;
+    }
+    .form-survey p {
+        text-align: center;
+    }
+    .form-survey-2 p {
+        text-align: center;
+    }
+    header {
+        font-size: 1.35em;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    html {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container {
+        margin: 0px;
+    }
+    #survey-form {
+        width: 100%;
+        margin: 0px;
+    }
+    .form-survey {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .form-survey label {
+        justify-content: center;
+    }
+    .input-text {
+        text-align: center;
+    }
+    .form-survey p {
+        text-align: center;
+    }
+    .form-survey-2 p {
+        text-align: center;
+    }
+    header {
+        font-size: 1.35em;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    html {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container {
+        margin: 0px;
+    }
+    #survey-form {
+        width: 55%;
+        margin: 0px;
+    }
+    header {
+        font-size: 1.35em;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 1025px) {
+    html {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container {
+        margin: 0px;
+    }
+    #survey-form {
+        width: 55%;
+        margin: 0px;
+    }
+    header {
+        font-size: 1.35em;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
 }

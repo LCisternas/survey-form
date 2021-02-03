@@ -9,26 +9,26 @@
 <body>
     <div class="container">
         <header>
-            <h1 id="title">Lorem ipsum dolor sit.</h1>
-            <p id="description">Lorem ipsum dolor sit amet consectetur.</p>
+            <h1 id="title">Tech survey</h1>
+            <p id="description">Help us to know your stack of favorite technologies</p>
         </header>
         <form id="survey-form" action="">
             <div class="form-survey">
                 <label for="name">Name</label>
-                <input type="text" placeholder="Enter your name" id="name" required name="name">
+                <input class="input-text" type="text" placeholder="Enter your name" id="name" required name="name">
             </div>
             <div class="form-survey">
                 <label for="email">Email</label>
-                <input type="email" placeholder="Enter your email" id="email" required name="email">
+                <input class="input-text" type="email" placeholder="Enter your email" id="email" required name="email">
             </div>
             <div class="form-survey">
                 <label for="age">Age</label>
-                <input type="number" placeholder="Age" id="age" required min="10" max="99" name="number">
+                <input class="input-text" type="number" placeholder="Age" id="age" required min="10" max="99" name="number">
             </div>
             <div id="dropdown" class="form-survey">
                 <p>Your current occupation</p>
                 <select name="dropdown" id="drop">
-                    <option value="occupation" disabled selected>Select</option>
+                    <option value="select" disabled selected>Select</option>
                     <option value="student">Student</option>
                     <option value="full-time-job">Full time job</option>
                     <option value="part-time-job">Part time job</option>
@@ -36,32 +36,33 @@
                 </select>
             </div>  
             <div class="form-survey-2">
-                <p class="title-radio">Lorem ipsum dolor sit amet.</p>
-                <label for="red"><input class="input-radio" type="radio" id="red" name="red">Red</label><br>
-                <label for="blue"><input class="input-radio" type="radio" id="blue" name="blue">Blue</label><br>
-                <label for="green"><input class="input-radio" type="radio" id="green" name="green">Green</label><br>
+                <p class="title-radio">Preferred Framework for Front-End?</p>
+                <label for="react"><input class="input-radio" type="radio" id="react" name="front">React</label><br>
+                <label for="vue"><input class="input-radio" type="radio" id="vue" name="front">Vue</label><br>
+                <label for="angular"><input class="input-radio" type="radio" id="angular" name="front">Angular</label><br>
             </div>
             <div class="form-survey">
-                <p>Animal favorito</p>
+                <p>Preferred operating system?</p>
                 <select name="dropdown" id="drop">
                     <option value="occupation" disabled selected>Select</option>
-                    <option value="dog">Dog</option>
-                    <option value="cat">Cat</option>
-                    <option value="other">Other</option>
+                    <option value="dog">Windows</option>
+                    <option value="cat">Linux</option>
+                    <option value="other">macOS</option>
                 </select>
             </div>
             <div class="form-survey-2">
-                <p>Lorem ipsum dolor sit.</p>
-                <label for="red"><input class="input-checkbox" type="checkbox" id="red" name="red">Red</label><br>
-                <label for="blue"><input class="input-checkbox" type="checkbox" id="blue" name="blue">Blue</label><br>
-                <label for="green"><input class="input-checkbox" type="checkbox" id="green" name="green">Green</label><br>
+                <p>Preferred language for the Back-End?</p>
+                <label for="java"><input class="input-checkbox" type="checkbox" id="java" name="end">Java</label><br>
+                <label for="python"><input class="input-checkbox" type="checkbox" id="python" name="end">Python</label><br>
+                <label for="js"><input class="input-checkbox" type="checkbox" id="js" name="end">Javascript</label><br>
+                <label for="ruby"><input class="input-checkbox" type="checkbox" id="ruby" name="end">Ruby</label><br>
             </div>
             <div class="form-survey">
-                <p>Lorem, ipsum dolor.</p>
+                <p>Something we forgot to ask?</p>
                 <textarea name="" id="" cols="30" rows="10" placeholder="Write here"></textarea>
             </div>
             <div class="form-survey">
-                <button type="submit">Send</button>
+                <button id="btn" type="submit">Submit</button>
             </div>
         </form>
     </div>
