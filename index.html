@@ -14,16 +14,16 @@
         </header>
         <form id="survey-form" action="">
             <div class="form-survey">
-                <label for="name">Name</label>
+                <label id="name-label" for="name">Name</label>
                 <input class="input-text" type="text" placeholder="Enter your name" id="name" required name="name">
             </div>
             <div class="form-survey">
-                <label for="email">Email</label>
+                <label id="email-label" for="email">Email</label>
                 <input class="input-text" type="email" placeholder="Enter your email" id="email" required name="email">
             </div>
             <div class="form-survey">
-                <label for="age">Age</label>
-                <input class="input-text" type="number" placeholder="Age" id="age" required min="10" max="99" name="number">
+                <label id="number-label" for="number">Age</label>
+                <input class="input-text" type="number" placeholder="Age" id="number" required min="10" max="99" name="number">
             </div>
             <div id="dropdown" class="form-survey">
                 <p>Your current occupation</p>
@@ -37,9 +37,9 @@
             </div>  
             <div class="form-survey-2">
                 <p class="title-radio">Preferred Framework for Front-End?</p>
-                <label for="react"><input class="input-radio" type="radio" id="react" name="front">React</label><br>
-                <label for="vue"><input class="input-radio" type="radio" id="vue" name="front">Vue</label><br>
-                <label for="angular"><input class="input-radio" type="radio" id="angular" name="front">Angular</label><br>
+                <label for="front"><input class="input-radio" type="radio" id="front" name="front">React</label><br>
+                <label for="front"><input class="input-radio" type="radio" id="front" name="front">Vue</label><br>
+                <label for="front"><input class="input-radio" type="radio" id="front" name="front">Angular</label><br>
             </div>
             <div class="form-survey">
                 <p>Preferred operating system?</p>
@@ -52,19 +52,20 @@
             </div>
             <div class="form-survey-2">
                 <p>Preferred language for the Back-End?</p>
-                <label for="java"><input class="input-checkbox" type="checkbox" id="java" name="end">Java</label><br>
-                <label for="python"><input class="input-checkbox" type="checkbox" id="python" name="end">Python</label><br>
-                <label for="js"><input class="input-checkbox" type="checkbox" id="js" name="end">Javascript</label><br>
-                <label for="ruby"><input class="input-checkbox" type="checkbox" id="ruby" name="end">Ruby</label><br>
+                <label for="end"><input class="input-checkbox" type="checkbox" id="end" name="end">Java</label><br>
+                <label for="end"><input class="input-checkbox" type="checkbox" id="end" name="end">Python</label><br>
+                <label for="end"><input class="input-checkbox" type="checkbox" id="js" name="end">Javascript</label><br>
+                <label for="end"><input class="input-checkbox" type="checkbox" id="ruby" name="end">Ruby</label><br>
             </div>
             <div class="form-survey">
                 <p>Something we forgot to ask?</p>
                 <textarea name="" id="" cols="30" rows="10" placeholder="Write here"></textarea>
             </div>
             <div class="form-survey">
-                <button id="btn" type="submit">Submit</button>
+                <button id="submit" type="submit">Submit</button>
             </div>
         </form>
     </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>

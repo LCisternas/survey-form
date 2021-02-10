@@ -3,7 +3,7 @@
     margin: 10px;
 }
 body {
-    background-image: url(/img/pexels-neo-2653362.jpg);
+    background-image: url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
     background-position: center;
     color: white;
@@ -68,7 +68,7 @@ label {
     min-width: 1.2rem;
     min-height: 1.2rem;
 }
-#btn {
+#submit {
     background-color: #37af65;
     border:none;
     border-radius:3px;
